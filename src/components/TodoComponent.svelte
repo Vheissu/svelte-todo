@@ -40,7 +40,7 @@
 
         <div class="todo-items">
             {#each todos as todo, i}
-                <TodoItem {todo} {deleteTodo} index={i} on:deleteTodo={deleteTodo} />
+                <TodoItem {todo} {deleteTodo} index={i} />
             {/each}
         </div>
     </div>
